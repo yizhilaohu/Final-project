@@ -4,15 +4,14 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from PIL import Image
 plt.style.use('seaborn')
 import seaborn as sns
 
 #################################################################################
 # show the image
 #################################################################################
-image = Image.open('hotel.jpeg')
-st.image(image, use_column_width=True)
+# image = Image.open('hotel.jpeg')
+# st.image(image, use_column_width=True)
 #################################################################################
 # show the title
 #################################################################################
